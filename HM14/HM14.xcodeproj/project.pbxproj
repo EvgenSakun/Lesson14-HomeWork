@@ -13,6 +13,8 @@
 		043FCE9C2B5320A700F69F75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043FCE9A2B5320A700F69F75 /* Main.storyboard */; };
 		043FCE9E2B5320A800F69F75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043FCE9D2B5320A800F69F75 /* Assets.xcassets */; };
 		043FCEA12B5320A800F69F75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043FCE9F2B5320A800F69F75 /* LaunchScreen.storyboard */; };
+		043FCEAA2B53217500F69F75 /* Devices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FCEA92B53217500F69F75 /* Devices.swift */; };
+		043FCEAD2B5321F600F69F75 /* DeviceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FCEAB2B5321F600F69F75 /* DeviceCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		043FCE9D2B5320A800F69F75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		043FCEA02B5320A800F69F75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		043FCEA22B5320A800F69F75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043FCEA92B53217500F69F75 /* Devices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devices.swift; sourceTree = "<group>"; };
+		043FCEAB2B5321F600F69F75 /* DeviceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		043FCE932B5320A700F69F75 /* HM14 */ = {
 			isa = PBXGroup;
 			children = (
+				043FCEA82B53216700F69F75 /* View */,
 				043FCE942B5320A700F69F75 /* AppDelegate.swift */,
 				043FCE962B5320A700F69F75 /* SceneDelegate.swift */,
 				043FCE982B5320A700F69F75 /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				043FCEA22B5320A800F69F75 /* Info.plist */,
 			);
 			path = HM14;
+			sourceTree = "<group>";
+		};
+		043FCEA82B53216700F69F75 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				043FCEA92B53217500F69F75 /* Devices.swift */,
+				043FCEAB2B5321F600F69F75 /* DeviceCollectionViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +155,8 @@
 				043FCE992B5320A700F69F75 /* ViewController.swift in Sources */,
 				043FCE952B5320A700F69F75 /* AppDelegate.swift in Sources */,
 				043FCE972B5320A700F69F75 /* SceneDelegate.swift in Sources */,
+				043FCEAD2B5321F600F69F75 /* DeviceCollectionViewCell.swift in Sources */,
+				043FCEAA2B53217500F69F75 /* Devices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
